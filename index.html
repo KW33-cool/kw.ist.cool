@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>USA &amp; Grönland – Warum es JETZT brennt</title>
+  <meta name="description" content="Scroll-Story mit Karte: Warum die Grönland-Frage im Januar 2026 eskaliert – Sicherheit, Radar, Arktis-Routen, Rohstoffe, NATO." />
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="badge">GeWi · Vortrag · Januar 2026</div>
+      <h1>USA &amp; Grönland</h1>
+      <p class="lead">
+        <strong>Warum es jetzt brennt:</strong> In Washington eskalieren Aussagen über „Kontrolle“ oder sogar „Eroberung“,
+        während Dänemark und Grönland widersprechen – und europäische Partner ihre Präsenz in Grönland sichtbar erhöhen.
+        Scrolle nach unten: Die Karte bleibt stehen, die Argumente laufen daran vorbei (Apple‑Style).
+      </p>
+
+      <div class="hero__meta">
+        <div class="meta__chip">
+          <span class="dot"></span>
+          <span><strong>Kernformel:</strong> Lage + Radar + Seewege + Rohstoffe</span>
+        </div>
+        <div class="meta__chip">
+          <span class="dot"></span>
+          <span><strong>Wichtig:</strong> „Angriff“ ist (noch) kein beschlossener Plan – aber <em>Androhung/Druck</em> wird offen diskutiert.</span>
+        </div>
+      </div>
+
+      <div class="hero__actions">
+        <a class="btn" href="print.html" target="_blank" rel="noopener">🖨️ Vorlese‑Text (Druck)</a>
+        <a class="btn btn--ghost" href="#video">▶ Video (ARD/ZDF)</a>
+      </div>
+
+      <div class="scrollhint" aria-hidden="true">
+        <div class="mouse"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="story">
+    <div class="story__grid">
+      <aside class="mapPane" aria-label="Interaktive Weltkarte">
+        <div id="map" class="map"></div>
+        <div class="mapLegend" role="note">
+          <div class="legendRow">
+            <span class="swatch swatch--usa"></span> USA
+            <span class="sep">·</span>
+            <span class="swatch swatch--grn"></span> Grönland
+          </div>
+          <div class="legendHint">Klick auf Marker/Flächen für Kurz‑Infos.</div>
+        </div>
+      </aside>
+
+      <section class="steps" aria-label="Scroll-Story">
+        <section class="step" data-step="0">
+          <h2>1) Was passiert gerade (Januar 2026)?</h2>
+          <p>
+            In den Medien taucht erneut die Idee auf, die USA könnten Grönland „kaufen“ oder politisch unter US‑Kontrolle bringen.
+            <strong>Neu 2026:</strong> Die Rhetorik ist schärfer – es fällt sogar das Wort „Eroberung“.
+            Dänemark und Grönland betonen, dass die Insel <em>nicht</em> zum Verkauf steht und dass
+            Souveränität und Selbstbestimmung rote Linien sind.
+          </p>
+          <div class="callout">
+            <strong>Kontext:</strong><br/>
+            „Angriff“ ist kein beschlossenes Vorgehen – aber die Diskussion über <em>Druck</em> und <em>Force‑Optionen</em> ist öffentlich.
+            Das allein erzeugt bereits politische und militärische Gegenreaktionen.
+          </div>
+          <ul class="bullets">
+            <li>Grönland ist weitgehend selbstverwaltet – gehört staatsrechtlich zum Königreich Dänemark.</li>
+            <li>Die USA haben dort seit Jahrzehnten Militär‑Präsenz (u.a. Radar / Raumlage).</li>
+            <li>Mit Arktis‑Wettbewerb und Klimawandel steigt die strategische Bedeutung.</li>
+          </ul>
+        </section>
+
+        <section class="step" data-step="1">
+          <h2>2) Warum gerade Grönland? (die schnelle Karte im Kopf)</h2>
+          <p>
+            Nicht „weil es hübsch aussieht“, sondern wegen einer Kombination aus <strong>Lage</strong>, <strong>Sicherheit</strong>,
+            <strong>Ressourcen</strong> und <strong>Seewegen</strong>.
+          </p>
+          <div class="gridCards">
+            <div class="card">
+              <h3>🛰️ Frühwarnung &amp; Weltraum</h3>
+              <p>Transpolare Flugbahnen: Radar in Grönland hilft, Bedrohungen früher zu erkennen.</p>
+            </div>
+            <div class="card">
+              <h3>🚢 Arktische Routen</h3>
+              <p>Weniger Eis = längere Saison. Das verschiebt Handelswege und Machtfragen.</p>
+            </div>
+            <div class="card">
+              <h3>⛏️ Kritische Rohstoffe</h3>
+              <p>Seltene Erden &amp; Mineralien: wichtig für Elektronik, Energiewende, Rüstung, Batterien.</p>
+            </div>
+          </div>
+
+          <details class="accordion">
+            <summary>Mehr Details (kurz &amp; verständlich)</summary>
+            <div class="accBody">
+              <ul class="bullets">
+                <li><strong>Geografie:</strong> Grönland liegt zwischen Nordamerika und Europa – nahe am Polarkreis, nahe an transpolaren Routen.</li>
+                <li><strong>Signalwirkung:</strong> Kontrolle über Schlüsselräume ist in Großmachtpolitik oft „Symbol + Sicherheit“ zugleich.</li>
+                <li><strong>Wettbewerb:</strong> USA argumentieren mit Russland/China‑Einfluss; Dänemark/Experten widersprechen teils.</li>
+              </ul>
+            </div>
+          </details>
+        </section>
+
+        <section class="step" data-step="2">
+          <h2>3) Militärisch wichtig: Radar, Raketenbahnen, Raumlage</h2>
+          <p>
+            Im Nordwesten Grönlands liegt die US‑Basis <strong>Pituffik Space Base</strong> (früher Thule).
+            Dort betreibt die <strong>12th Space Warning Squadron</strong> ein <strong>Upgraded Early Warning Radar</strong> – Teil der
+            US‑Frühwarn‑ und Angriffsbewertung (NORAD).
+          </p>
+          <p class="note">
+            <strong>Warum das militärisch zählt:</strong> Wer früher sieht, hat mehr Zeit zu reagieren – das ist in Krisen ein echter Vorteil.
+          </p>
+          <div class="quote">
+            In Washington wird das als Argument genutzt: „National Security“ und „Raketenabwehr“.
+          </div>
+
+          <details class="accordion">
+            <summary>Mehr Militär‑Punkte (ohne Fachchinesisch)</summary>
+            <div class="accBody">
+              <ul class="bullets">
+                <li><strong>Frühwarn‑Kette:</strong> Radar + Satelliten = schnelleres Lagebild (Luft/Raum).</li>
+                <li><strong>Kommunikation:</strong> Arktis ist schwierig – wer Infrastruktur hat, hat Vorteil.</li>
+                <li><strong>Abschreckung:</strong> Sichtbare Präsenz dient oft dazu, Gegner abzuschrecken – und Verbündete zu beruhigen.</li>
+              </ul>
+            </div>
+          </details>
+        </section>
+
+        <section class="step" data-step="3">
+          <h2>4) Meerengen &amp; U‑Boote: die GIUK‑Lücke</h2>
+          <p>
+            Zwischen <strong>G</strong>reenland – <strong>I</strong>celand – <strong>UK</strong> liegt ein maritimer „Nadelöhr‑Korridor“:
+            die <strong>GIUK‑Gap</strong>. Wer vom Nordmeer in den Atlantik will, muss (vereinfacht) hier durch.
+          </p>
+          <p>
+            Das macht die Region wichtig für Überwachung von U‑Boot‑Bewegungen, Schutz von See‑Handelswegen und – heute besonders –
+            Schutz kritischer Unterwasser‑Infrastruktur (Kabel, Pipelines).
+          </p>
+          <details class="accordion">
+            <summary>Warum „Kabel &amp; Pipelines“ heute so wichtig sind</summary>
+            <div class="accBody">
+              <p class="small">
+                Moderne Staaten hängen an Unterseekabeln (Internet/Finanzen) und Energie‑Infrastruktur. Das ist verwundbar – und damit sicherheitspolitisch „heiß“.
+              </p>
+            </div>
+          </details>
+        </section>
+
+        <section class="step" data-step="4">
+          <h2>5) Klima &amp; neue Arktis‑Routen</h2>
+          <p>
+            Mit dem Rückgang des Meereises werden nördliche Schifffahrtsrouten länger nutzbar.
+            Für Handel bedeutet das: <strong>kürzere Strecken</strong> – aber auch mehr Wettbewerb um Einfluss in der Arktis.
+          </p>
+          <div class="callout">
+            <strong>Folge:</strong> Mehr Schiffe, mehr Häfen, mehr Militär‑„Begleitschutz“ – und mehr Streit um Regeln.
+          </div>
+        </section>
+
+        <section class="step" data-step="5">
+          <h2>6) Rohstoffe &amp; Abhängigkeiten</h2>
+          <p>
+            Grönland gilt als potenziell rohstoffreich (u.a. Seltene Erden). Das ist geopolitisch relevant, weil viele High‑Tech‑Lieferketten
+            heute von wenigen Ländern abhängen.
+          </p>
+          <ul class="bullets">
+            <li><strong>Seltene Erden</strong>: Magnete (E‑Motoren, Windkraft), Elektronik.</li>
+            <li><strong>Infrastruktur‑Hürde</strong>: Kälte, Entfernungen, Häfen, Energie, Umweltschutz.</li>
+            <li><strong>Konflikt</strong>: Wirtschaftschancen vs. Natur/Indigene Lebensräume.</li>
+          </ul>
+        </section>
+
+        <section class="step" data-step="6">
+          <h2>7) „Angriff“/Drohung – warum die USA damit Druck machen</h2>
+          <p>
+            In den aktuellen Aussagen aus den USA tauchen zwei Linien auf:
+            <strong>(1)</strong> Grönland sei für US‑Sicherheit unverzichtbar,
+            <strong>(2)</strong> Dänemark könne die Insel nicht ausreichend schützen.
+            Daraus wird politischer Druck abgeleitet – bis hin zur Idee, die Kontrolle zu übernehmen.
+          </p>
+          <div class="gridCards">
+            <div class="card">
+              <h3>🎯 Militär‑Logik</h3>
+              <p>Mehr Stützpunkte/Überwachung = besseres Lagebild in Arktis &amp; Atlantik.</p>
+            </div>
+            <div class="card">
+              <h3>🧱 Raketenabwehr</h3>
+              <p>In der US‑Debatte wird Grönland mit Raketenabwehr &amp; Frühwarnung verknüpft.</p>
+            </div>
+            <div class="card">
+              <h3>🌍 Großmacht‑Signal</h3>
+              <p>Territoriale Kontrolle als Machtzeichen – mit hoher Eskalationsgefahr.</p>
+            </div>
+          </div>
+
+          <details class="accordion">
+            <summary>Warum das für Europa/NATO sofort „Alarm“ ist</summary>
+            <div class="accBody">
+              <ul class="bullets">
+                <li>Dänemark ist NATO‑Mitglied. Drohungen gegen Dänemark wirken wie Drohungen <em>innerhalb</em> der Allianz.</li>
+                <li>Eine erzwungene Kontrolle würde Völkerrecht, Bündnis‑Vertrauen und Abschreckung gegen Russland schwächen.</li>
+                <li>Deshalb reagieren EU‑Staaten politisch – und mit sichtbarer Präsenz/Übungen.</li>
+              </ul>
+            </div>
+          </details>
+        </section>
+
+        <section class="step" data-step="7">
+          <h2>8) Reaktion 2026: Soldaten/Übungen in Grönland</h2>
+          <p>
+            Als Zeichen der Unterstützung für Dänemark/Grönland und zur Aufklärung in der Region wurden für Januar 2026
+            <strong>Erkundungs‑ und Übungselemente</strong> angekündigt bzw. entsandt.
+            Dazu gehören auch kleine Kontingente aus europäischen Staaten.
+          </p>
+          <ul class="bullets">
+            <li><strong>Deutschland</strong>: ein Bundeswehr‑Erkundungsteam (kurzer Einsatz, u.a. Aufklärung/Maritime Surveillance).</li>
+            <li><strong>Schweden &amp; Norwegen</strong>: ähnliche Entsendungen im europäischen Verbund.</li>
+            <li><strong>Dänemark</strong>: Ausbau der eigenen Präsenz und Übungen in enger Kooperation mit Verbündeten.</li>
+          </ul>
+
+          <details class="accordion">
+            <summary>Wichtig: Was diese Entsendungen politisch bedeuten</summary>
+            <div class="accBody">
+              <p class="small">
+                Das ist keine „Kriegsfront“, sondern <strong>Signalpolitik</strong>:
+                Präsenz zeigen, Lage erkunden, Bündnis‑Solidarität demonstrieren – und Eskalation abschrecken.
+              </p>
+            </div>
+          </details>
+        </section>
+
+        <section class="step" data-step="8">
+          <h2>9) Wenn zwei NATO‑Länder sich „angreifen“ würden – was passiert dann?</h2>
+          <p>
+            Das wäre ein Alptraum‑Szenario, weil NATO auf <strong>gemeinsame Verteidigung gegen äußere Angriffe</strong> gebaut ist.
+            <strong>Artikel 5</strong> richtet sich gegen Angriffe <em>von außen</em>.
+            Ein Konflikt <em>innerhalb</em> der NATO würde die Allianz politisch sprengen oder lahmlegen.
+          </p>
+          <div class="callout">
+            <strong>Folgen (realistisch):</strong><br/>
+            Krisensitzungen, Vermittlung, Druck durch andere Mitglieder, mögliche <em>Artikel‑4‑Konsultationen</em>, massive Vertrauenskrise.
+          </div>
+
+          <details class="accordion">
+            <summary>Einfach erklärt: Warum Artikel 5 hier nicht „automatisch“ hilft</summary>
+            <div class="accBody">
+              <p class="small">
+                Artikel 5 wird ausgelöst, wenn ein Mitglied <strong>angegriffen</strong> wird.
+                Bei einem Streit zwischen Mitgliedern wäre die Frage „Wer greift wen an?“ politisch explosiv.
+                Praktisch würde die NATO versuchen, den Konflikt zu stoppen – nicht, ihn militärisch auszutragen.
+              </p>
+            </div>
+          </details>
+        </section>
+
+        <section class="step" data-step="9" id="video">
+          <h2>10) Video (max. 5 Minuten) zum Einbauen</h2>
+          <p>
+            Hier ist ein kurzes ZDF‑Video (2:32 min), das die aktuelle Lage zusammenfasst (USA‑Ansprüche, Treffen in Washington, europäische Reaktionen).
+          </p>
+          <div class="videoCard">
+            <div class="videoTitle">ZDFheute: „Bundeswehr entsendet Erkundungsteam nach Grönland“ (2:32)</div>
+            <a class="btn" href="https://www.zdfheute.de/politik/ausland/groenland-bundeswehr-erkundungsteam-usa-treffen-rubio-rasmussen-motzfeldt-100.html" target="_blank" rel="noopener">▶ Video öffnen</a>
+            <div class="small muted">
+              Falls du lieber Tagesschau (ARD) zeigen willst: Nimm einen Tagesschau‑Beitrag zum „Streit um Grönland“ (oft ~1–2 Minuten).
+              Je nach Plattform kann Einbetten blockiert sein – Link öffnen ist dann am sichersten.
+            </div>
+          </div>
+        </section>
+
+        <section class="step" data-step="10">
+          <h2>11) Mini‑Timeline (für deinen Vortrag)</h2>
+          <div class="timeline">
+            <div class="trow"><span class="yr">1951</span><span>Verteidigungsabkommen USA–Dänemark: US‑Nutzung von „Defense Areas“ in Grönland.</span></div>
+            <div class="trow"><span class="yr">2009</span><span>Selbstverwaltung: Recht auf Selbstbestimmung wird anerkannt; mehr Autonomie.</span></div>
+            <div class="trow"><span class="yr">2019</span><span>US‑Debatte über „Kauf“ von Grönland sorgt weltweit für Schlagzeilen.</span></div>
+            <div class="trow"><span class="yr">Jan 2026</span><span>Treffen USA–Dänemark–Grönland in Washington; „fundamental disagreement“ bleibt, europäische Präsenz/Übungen steigen.</span></div>
+          </div>
+        </section>
+
+        <section class="step" data-step="11">
+          <h2>12) Fazit in einem Satz</h2>
+          <p class="big">
+            <strong>Grönland ist ein strategischer Knotenpunkt:</strong>
+            Frühwarnradar + Zugangsrouten + Rohstoffe – und genau deshalb wird jede Drohung zur Allianz‑Krise.
+          </p>
+        </section>
+
+        <section class="step" data-step="12">
+          <h2>Quellen &amp; Weiterklicken</h2>
+          <p class="small">
+            Diese Seite fasst öffentlich zugängliche Informationen zusammen.
+          </p>
+          <ul class="sources">
+            <li><a href="https://www.reuters.com/world/europe/just-one-five-americans-support-trumps-efforts-acquire-greenland-reutersipsos-2026-01-14/" target="_blank" rel="noopener">Reuters/Ipsos (14.01.2026): Umfrage zu Zustimmung &amp; Militär‑Optionen</a></li>
+            <li><a href="https://www.reuters.com/world/europe/denmark-greenland-face-vance-high-stakes-meeting-2026-01-14/" target="_blank" rel="noopener">Reuters (14.01.2026): Treffen mit Vance/Rubio; Debatte über „conquering“</a></li>
+            <li><a href="https://www.reuters.com/world/europe/germany-send-reconnaissance-troops-greenland-government-says-2026-01-14/" target="_blank" rel="noopener">Reuters (14.01.2026): Deutschland entsendet Erkundungsteam</a></li>
+            <li><a href="https://www.fmn.dk/en/news/2025/the-danish-armed-forces-expand-their-presence-and-continue-exercises-in-greenland-in-close-cooperation-with-allies/" target="_blank" rel="noopener">Dän. Verteidigungsministerium: Präsenz/Übungen in Grönland mit Verbündeten</a></li>
+            <li><a href="https://www.nato.int/en/what-we-do/introduction-to-nato/collective-defence-and-article-5" target="_blank" rel="noopener">NATO: Kollektive Verteidigung &amp; Artikel 5</a></li>
+            <li><a href="https://avalon.law.yale.edu/20th_century/den001.asp" target="_blank" rel="noopener">Yale Avalon Project: Abkommen zur Verteidigung Grönlands (1951)</a></li>
+            <li><a href="https://www.buckley.spaceforce.mil/About-Us/Fact-Sheets/Article/2291701/12th-space-warning-squadron/" target="_blank" rel="noopener">US Space Force: 12th Space Warning Squadron / UEWR</a></li>
+          </ul>
+
+          <div class="footer">
+            <span>Made for Netlify · Statisch (ohne Build) · HTML/CSS/JS</span>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>

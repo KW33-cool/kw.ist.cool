@@ -1,0 +1,18 @@
+body{margin:0;font-family:ui-serif,Georgia,"Times New Roman",Times,serif;color:#111;background:#f6f6f6;}
+.top{background:#fff;border-bottom:1px solid #e5e5e5;padding:18px 18px;}
+h1{margin:0 0 6px;font-size:26px;}
+.sub{margin:0 0 12px;color:#444;line-height:1.45;max-width:95ch;}
+.printBtn{padding:10px 12px;border-radius:10px;border:1px solid #ddd;background:#111;color:#fff;cursor:pointer;}
+.paper{max-width:880px;margin:18px auto;background:#fff;border:1px solid #e5e5e5;border-radius:14px;padding:22px 24px;}
+h2{margin:18px 0 8px;font-size:18px;}
+p{margin:0 0 10px;line-height:1.55;font-size:14.5px;}
+ul{margin:10px 0 0;}
+li{margin:6px 0;}
+hr{margin:18px 0;border:none;border-top:1px solid #e5e5e5;}
+@media print{
+  body{background:#fff;}
+  .top{position:fixed;top:0;left:0;right:0;border:none;}
+  .printBtn{display:none;}
+  .paper{margin:0;border:none;border-radius:0;}
+  @page{margin:16mm;}
+}
