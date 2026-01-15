@@ -6,8 +6,7 @@
   <title>USA & Grönland – Vortrag (6. Klasse)</title>
   <link rel="preconnect" href="https://unpkg.com" />
   <link rel="preconnect" href="https://tile.openstreetmap.org" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body data-page="site">
@@ -20,24 +19,24 @@
       </div>
     </div>
     <div class="actions">
-      <a class="btn" href="print.html" target="_blank" rel="noopener">Drucken</a>
+      <a class="btn" href="print.html" target="_blank">Drucken</a>
     </div>
   </header>
 
   <main class="layout">
-    <section class="mapPane" aria-label="Karte">
+    <section class="mapPane">
       <div id="map" class="map"></div>
-      <div class="mapLegend" aria-hidden="true">
+      <div class="mapLegend">
         <span class="chip usa"><span class="sw"></span>USA</span>
         <span class="chip grl"><span class="sw"></span>Grönland</span>
       </div>
-      <div class="mapHint" aria-hidden="true">
-        <div class="hintTitle">So funktioniert’s</div>
-        <div class="hintText">Beim Scrollen springt die Karte passend zu Aufgabe 1–6.</div>
+      <div class="mapNote">
+        Hinweis: Auf flachen Weltkarten wirkt Grönland viel größer als es wirklich ist.
+        Auf einem Globus sieht man, dass Afrika viel größer ist.
       </div>
     </section>
 
-    <section class="story" aria-label="Text">
+    <section class="story">
       <article class="card hero">
         <h2>Kurz gesagt</h2>
         <p id="lead"></p>
@@ -47,15 +46,12 @@
       <div class="sections" id="sections"></div>
 
       <footer class="footer">
-        <div class="fineprint">
-          Version 1.0 · Stand: Januar 2026 · Schulvortrag GeWi (6. Klasse)
-        </div>
+        Version 1.1 · Stand: Januar 2026 · Schulvortrag GeWi (6. Klasse)
       </footer>
     </section>
   </main>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
