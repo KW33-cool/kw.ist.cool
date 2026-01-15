@@ -1,10 +1,14 @@
-# Netlify Upload (statische Seite)
+USA & Grönland – Schulvortrag (6. Klasse) – Version 1.0 (Januar 2026)
 
-- Diese ZIP enthält eine fertige Website (kein Build).
-- Netlify: Add new site → Deploy manually → ZIP hochladen.
-- Startseite: index.html
-- Druck/Script: print.html (Button auf Startseite)
+Wichtig:
+- Fertige Version (keine „für deinen Vortrag“-Hinweise, kein Netlify).
+- Oben gibt es nur einen Button: DRUCKEN.
+- Druckversion funktioniert über print.html (Button druckt direkt).
+- Website & Drucktext sind 100% synchron: beide kommen aus dem gleichen Master-Text in script.js.
 
-Hinweis:
-- Karte lädt Kacheln online (OpenStreetMap/CARTO). Wenn kein Internet: Hintergrundkacheln fehlen,
-  die Highlights/Story laufen aber trotzdem.
+Dateien:
+- index.html
+- styles.css
+- script.js
+- print.html
+- print.css
